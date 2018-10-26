@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{633257B2-7783-4A79-9EE2-E81607303BF3}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="triangulo/Triangulo.cs">
     <Files>
-      <File FileName="triangulo/Program.cs" Line="29" Column="38" />
-      <File FileName="triangulo/Triangulo.cs" Line="1" Column="1" />
+      <File FileName="triangulo/Program.cs" Line="20" Column="1" />
+      <File FileName="triangulo/Triangulo.cs" Line="8" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

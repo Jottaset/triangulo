@@ -6,7 +6,22 @@ namespace triangulo
     {
         static void Main(string[] args)
         {
-            int ladoA;             int ladoB;             int ladoC;              string texto;              Console.WriteLine("Digite um Valor para o lado A");             ladoA = Int32.Parse(Console.ReadLine());             texto = "\nladoA: " + ladoA;             Console.WriteLine("Valor da variavel texto: " + texto);              Console.WriteLine("Digite um Valor para o lado B");             ladoB = Int32.Parse(Console.ReadLine());             texto += "\nladoB: " + ladoB;             Console.WriteLine("Valor da variavel texto: " + texto);              Console.WriteLine("Digite um Valor para o lado C");             ladoC = Int32.Parse(Console.ReadLine());             texto += "\nladoC: " + ladoC;              Console.WriteLine(texto);
+
+             Triangulo triangulo = new Triangulo();
+
+            Console.WriteLine("Informe o valor do lado A: ");
+            //triangulo.ladoA = Int32.Parse(Console.ReadLine());
+            triangulo.defineValorLadoA(Int32.Parse(Console.ReadLine()));
+
+            //Console.WriteLine("Informe o valor do lado B: ");
+            //triangulo.ladoB = Int32.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Informe o valor do lado C: ");
+            //triangulo.ladoC = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("LadoA: " + triangulo.pegaValorLadoA() + "\n");
+            //Console.WriteLine("LadoB: " + triangulo.ladoB + "\n");
+            //Console.WriteLine("LadoC: " + triangulo.ladoC + "\n");
         }
     }
 }
